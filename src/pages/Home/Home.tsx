@@ -2,6 +2,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import NavBarLink from "../../components/Navbar/NavBarLink/NavBarLink";
 import GroupedDevMobile from "../../assets/images/devs_grouped.png";
 import GroupDevDeskTop from "../../assets/images/grouped_devs.png";
+import SmallVerticalLine from "../../assets/icons/small_vertical_line.svg"
 
 const Home = () => {
   return (
@@ -38,31 +39,7 @@ const Home = () => {
               </div>
             </div>
 
-            <div className="hidden md:flex space-x-10 pt-36 w-auto">
-              <div className="">
-                <h1 className="text-xl font-normal whitespace-nowrap">
-                  Trusted by More than <br />
-                  <span className="text-green">150,000</span> Companies
-                </h1>
-              </div>
-
-              <div className="flex space-x-5">
-                <div className="flex flex-col space-y-1">
-                  <h1 className="font-bold text-xl">175,000+</h1>
-                  <p className="text-[20px] text-gray">Software Engineers</p>
-                </div>
-
-                <div className="flex flex-col space-y-1">
-                  <h1 className="font-bold text-xl">100+</h1>
-                  <p className="text-[20px] text-gray">Technical Skills</p>
-                </div>
-
-                <div className="flex flex-col space-y-1">
-                  <h1 className="font-bold text-xl">90+</h1>
-                  <p className="text-[20px] text-gray">Countries</p>
-                </div>
-              </div>
-            </div>
+            {/* Initial State position */}
           </div>
 
           <div className="col-span-5 hidden md:block lg:w-full lg:h-full">
@@ -80,6 +57,37 @@ const Home = () => {
               alt="grouped-dev-img"
               className="bg-center bg-cover w-full h-full"
             />
+          </div>
+
+          {/* New State position */}
+          <div className="flex flex-col space-y-3 space-x-0 pt-36 md:pt-10 md:space-y-0 md:flex-row md:space-x-10 w-auto">
+            <div className="">
+              <h1 className="text-lg md:text-xl font-normal whitespace-nowrap">
+                Trusted by More than <br />
+                <span className="text-green">150,000</span> Companies
+              </h1>
+            </div>
+
+            <div className="flex space-x-12">
+              <div className="flex flex-col space-y-1">
+                <h1 className="text-xs md:text-xl font-bold">175,000+</h1>
+                <p className="text-xs md:text-[20px] text-gray">
+                  Software Engineers
+                </p>
+              </div>
+
+              <div className="flex flex-col space-y-1">
+                <h1 className="text-xs md:text-xl font-bold">100+</h1>
+                <p className="text-xs md:text-[20px] text-gray">
+                  Technical Skills
+                </p>
+              </div>
+
+              <div className="flex flex-col space-y-1">
+                <h1 className="text-xs md:text-xl font-bold">90+</h1>
+                <p className="text-xs md:text-[20px] text-gray">Countries</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

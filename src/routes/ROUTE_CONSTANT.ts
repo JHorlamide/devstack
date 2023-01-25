@@ -1,0 +1,14 @@
+export const HOME = "/";
+export const BLOG = "blog";
+export const LOGIN = "login"
+export const EVENTS = "event";
+export const SIGN_UP = "sign-UP"
+export const CAREERS = "careers";
+export const RESOURCES = "resources";
+export const ENTERPRISE = "enterprise";
+export const PRESS_CENTER = "press-center";
+export const FOR_COMPANIES = "for-companies";
+export const FOR_ENGINEERS = 'for-engineers';
+export const ABOUT_DEVSTACK = "about-devstack";
+export const LEARNING_COMMUNITY = "learning-community";
+export const LEADERSHIP_PROGRAM = "leadership-programs";
